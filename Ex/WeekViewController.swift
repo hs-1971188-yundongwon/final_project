@@ -130,6 +130,7 @@ class WeekViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 let date = Date(timeIntervalSince1970: TimeInterval(dailyWeather.dt))
                 let dateFormatter = DateFormatter()
                 dateFormatter.dateFormat = "MM/dd"
+                dateFormatter.timeZone = TimeZone(identifier: "Asia/Seoul")
                    
                 cell.dataLabel.text = dateFormatter.string(from: date)
                 cell.minLabel.text = String(format: "%.0f°C", round(dailyWeather.temp.min - 273.15))

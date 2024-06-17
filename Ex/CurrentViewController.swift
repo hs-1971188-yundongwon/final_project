@@ -24,7 +24,6 @@ class CurrentViewController: UIViewController, CLLocationManagerDelegate {
     var currentHourlyWeather: CurrentHourlyWeather?
 
     let weatherSite = "https://api.openweathermap.org/data/2.5/weather"
-    let pollutionSite = "https://api.openweathermap.org/data/2.5/air_pollution"
     let weatherKey = "30615eae9b4b4d225f11da0a0c5a4232"
     let hourlySite = "https://api.openweathermap.org/data/3.0/onecall?"
         
@@ -112,7 +111,7 @@ extension CurrentViewController : UICollectionViewDelegate,UICollectionViewDataS
                 let localTime = dateFormatter.string(from: date)
                     
                 cell.dataLabel.text = localTime
-                cell.tempertureLabel.text = String(format: " %.2f°C", hourlyWeather.temp - 273.15)
+                cell.tempertureLabel.text = String(format: " %.1f°C", hourlyWeather.temp - 273.15)
                             
                 cell.imageIcon.image = cell.updateWeatherIcon(conditionID: weather.id)
             }

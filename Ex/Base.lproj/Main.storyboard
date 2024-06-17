@@ -154,7 +154,7 @@
             </objects>
             <point key="canvasLocation" x="-71.014492753623188" y="788.83928571428567"/>
         </scene>
-        <!--week forest-->
+        <!--week forecast-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="WeekViewController" customModule="Ex" customModuleProvider="target" sceneMemberID="viewController">
@@ -236,7 +236,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="week forest" image="calendar" catalog="system" id="se5-DB-cCj"/>
+                    <tabBarItem key="tabBarItem" title="week forecast" image="calendar" catalog="system" id="se5-DB-cCj"/>
                     <connections>
                         <outlet property="tableView" destination="K4a-q0-Izq" id="LtN-bv-tj2"/>
                     </connections>
