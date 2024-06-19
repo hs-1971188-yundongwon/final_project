@@ -20,6 +20,9 @@ Swift 언어와 OpenWeather API를 활용하여 사용자의 현재 위치를 �
 
 ## CurrentViewController.swift 코드 설명
 
+### 개요
+CurrentViewController 클래스는 사용자의 현재 위치를 기반으로 날씨 정보를 제공하며, 이를 UI 컴포넌트를 통해 시각적으로 표시하는 iOS 앱의 일부입니다. 위치 및 날씨 데이터는 CLLocationManager와 OpenWeatherMap API를 통해 처리됩니다.
+
 ### 클래스 및 함수 설명
 
 #### `CurrentViewController`
@@ -66,7 +69,7 @@ Swift 언어와 OpenWeather API를 활용하여 사용자의 현재 위치를 �
 
 ## WeekViewController.swift 코드 설명
 
-### 클래스 설명
+### 개요요
 
 #### `WeekViewController`
 - `UIViewController`를 상속받는 클래스로, 위치 기반의 일주일간 날씨 정보를 제공합니다. `UITableViewDataSource` 및 `UITableViewDelegate` 프로토콜과 `CLLocationManagerDelegate` 프로토콜을 구현하여 위치 업데이트와 테이블 뷰 관리를 담당합니다.
@@ -155,7 +158,6 @@ Swift 언어와 OpenWeather API를 활용하여 사용자의 현재 위치를 �
 
 #### `hourlyWeather`
 - 특정 시간의 날씨 정보를 나타내며, 시간(`dt`), 현재 온도(`temp`), 날씨 상태(`weather`)를 포함합니다.
-
 ---
-#앱 소개 영상
+# 앱 소개 영상
 [![Watch the video](https://img.youtube.com/vi/uakwwYSS6Ns/maxresdefault.jpg)](https://youtu.be/uakwwYSS6Ns)
