@@ -155,3 +155,7 @@ Swift 언어와 OpenWeather API를 활용하여 사용자의 현재 위치를 �
 
 #### `hourlyWeather`
 - 특정 시간의 날씨 정보를 나타내며, 시간(`dt`), 현재 온도(`temp`), 날씨 상태(`weather`)를 포함합니다.
+
+---
+#앱 소개 영상
+[![Watch the video](https://img.youtube.com/vi/uakwwYSS6Ns/maxresdefault.jpg)](https://youtu.be/uakwwYSS6Ns)
