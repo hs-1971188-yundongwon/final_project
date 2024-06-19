@@ -36,3 +36,4 @@ struct hourlyWeather: Codable {
     let temp: Double
     let weather: [Weather]
 }
+
